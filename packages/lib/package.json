@@ -1,6 +1,9 @@
 {
   "name": "@wanted/lib",
   "version": "1.0.0",
+  "scripts": {
+    "typecheck": "tsc --project ./tsconfig.json --noEmit"
+  },
   "private": true,
   "main": "./src/index.ts",
   "depdndencies": {

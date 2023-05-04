@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}>
       <p>의존성 테스트 {sayHello()}</p>
-      <Button>Hello From @wanted/ui</Button>
+      <Button variant="contained">Hello From @wanted/ui</Button>
     </main>
   );
 }
